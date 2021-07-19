@@ -1,0 +1,11 @@
+{
+    "name": "exybox",
+    "version": "0.0.1",
+    "description": "A Nodejs Framework for Web application development.",
+    "repository": "https://github.com/k6t12n/exybox",
+    "author": "K6t12n",
+    "license": "MIT",
+    "bin": {
+        "exybox": "./bin/exybox.js"
+    }
+}
