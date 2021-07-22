@@ -2,6 +2,8 @@
 
 [Exybox-CLI](https://www.npmjs.com/package/express) - Helper tool for your Nodejs development.
 
+[![NPM Version][npm-image]][npm-url]  [![License][license-imge]][license-url] ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)
+
 ## Installation
 
 ```sh
@@ -43,3 +45,7 @@ Using Exybox-CLI, you can configure your project and create module with multiple
 
 [MIT](LICENSE)
 
+[npm-image]: https://img.shields.io/npm/v/@k6t12n/exybox.svg
+[npm-url]: https://npmjs.org/package/@k6t12n/exybox
+[license-imge]: https://img.shields.io/npm/l/@k6t12n/exybox
+[license-url]: https://github.com/k6t12n/exybox/blob/main/LICENSE
