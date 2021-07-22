@@ -1,0 +1,25 @@
+name: 🚀 publish
+
+on:
+    push:
+        branches:
+            - master
+
+jobs:
+    publish-npm:
+        name: 🚀 publish
+
+        runs-on: ubuntu-latest
+        
+        steps:
+            - name: 📚 Checkout code
+              uses: actions/checkout@v2
+            - name: 🟢 node
+              uses: actions/setup-node@v1
+              with:
+                  node-version: 12
+                  registry-url: https://registry.npmjs.org
+            - name: 🚀 publish
+              run: npm publish --access public
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
