@@ -6,10 +6,11 @@
     "author": "K6t12n",
     "license": "MIT",
     "bin": {
-        "exybox": "./bin/exybox.js"
+        "exybox": "./bin/index.js"
     },
     "dependencies": {
         "commander": "^8.0.0",
-        "inquirer": "^8.1.2"
+        "inquirer": "^8.1.2",
+        "mkdirp": "^1.0.4"
     }
 }
