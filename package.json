@@ -1,13 +1,24 @@
 {
     "name": "exybox",
     "version": "0.0.1",
-    "description": "A Nodejs Framework for Web application development.",
+    "description": "Helper tool for your Nodejs development",
     "repository": "https://github.com/k6t12n/exybox",
     "author": "K6t12n",
     "license": "MIT",
+    "main": "bin/index.js",
     "bin": {
         "exybox": "./bin/index.js"
     },
+    "keywords": [
+        "exybox",
+        "exybox framework",
+        "cli",
+        "generator"
+    ],
+    "bugs": {
+        "url": "https://github.com/k6t12n/exybox/issues"
+    },
+    "homepage": "https://github.com/k6t12n/exybox/blob/main/README.md",
     "dependencies": {
         "commander": "^8.0.0",
         "inquirer": "^8.1.2",
