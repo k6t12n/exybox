@@ -19,6 +19,8 @@ jobs:
               with:
                   node-version: 12
                   registry-url: https://registry.npmjs.org
+            - name: ⏳ Git submodule loading
+              run: git submodule update --remote --merge
             - name: 🚀 publish
               run: npm publish --access public
               env:
