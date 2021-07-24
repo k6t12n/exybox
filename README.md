@@ -7,14 +7,14 @@
 ## Installation
 
 ```sh
-npm install -g exybox
+npm install -g @k6t12n/exybox
 ```
 
 ## Quick Overview
 
 Create new app:
 ```sh
-npx exybox create:app -t exybox-typescript my-app
+npx @k6t12n/exybox create:app -t exybox-typescript my-app
 cd my-app
 yarn dev
 ```
