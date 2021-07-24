@@ -14,7 +14,7 @@ npm install -g @k6t12n/exybox
 
 Create new app:
 ```sh
-npx @k6t12n/exybox create:app -t exybox-typescript my-app
+npx @k6t12n/exybox create:app --template exybox-typescript my-app
 cd my-app
 yarn dev
 ```
