@@ -1,3 +1,6 @@
 [submodule "templates/exybox-typescript"]
 	path = templates/exybox-typescript
 	url = https://github.com/k6t12n/exybox-typescript-template
+[submodule "templates/react-redux-starter"]
+	path = templates/react-redux-starter
+	url = https://github.com/k6t12n/exybox-cra-redux-starter.git
