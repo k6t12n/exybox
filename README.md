@@ -44,6 +44,10 @@ Using Exybox-CLI, you can configure your project and create module with multiple
 * [exybox-typescript](https://github.com/k6t12n/exybox-typescript-template)
 * [react-redux-starter](https://github.com/k6t12n/exybox-cra-redux-starter)
 * [exybox-typescript-ts](https://github.com/k6t12n/exybox-cra-redux-starter-ts)
+
+## Contributions
+Loving the project? Please feel free to contribute to this project. Whether it's suggestions, features, code refactors, testing, any help is welcome.
+
 ## License
 
 [MIT](LICENSE)
