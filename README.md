@@ -40,7 +40,10 @@ Using Exybox-CLI, you can configure your project and create module with multiple
     create:file [options] <file_path>    Create new file based on template, default will be js file
     help [command]                       display help for command
 
-
+## Available templates
+* [exybox-typescript](https://github.com/k6t12n/exybox-typescript-template)
+* [react-redux-starter](https://github.com/k6t12n/exybox-cra-redux-starter)
+* [exybox-typescript-ts](https://github.com/k6t12n/exybox-cra-redux-starter-ts)
 ## License
 
 [MIT](LICENSE)
