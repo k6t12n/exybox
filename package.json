@@ -1,6 +1,6 @@
 {
     "name": "@k6t12n/exybox",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "description": "Helper tool for your Nodejs development",
     "repository": "https://github.com/k6t12n/exybox",
     "author": "K6t12n",
@@ -21,6 +21,7 @@
     "homepage": "https://github.com/k6t12n/exybox/blob/main/README.md",
     "dependencies": {
         "commander": "^8.0.0",
+        "cross-spawn": "^7.0.3",
         "inquirer": "^8.1.2",
         "mkdirp": "^1.0.4"
     }
